@@ -1,0 +1,14 @@
+imageio
+matplotlib
+numpy
+pandas
+Pillow
+scikit-learn
+seaborn
+scipy
+tensorflow
+keras
+
+streamlit
+streamlit_option_menu
+langdetect
