@@ -7,7 +7,7 @@ from sklearn.metrics.pairwise import linear_kernel
 file_path = r'C:\\Users\\jakob\\DAT1E22Bxd\\Semester4\\BI BusinessIntelligence\\Week1\\Data\\movies_metadata.csv'
 
 #Read the first 10000 rows from the CSV file
-data = pd.read_csv(file_path, nrows=40000, low_memory=False)
+data = pd.read_csv(file_path, nrows=10000, low_memory=False)
 
 tfidf = TfidfVectorizer(stop_words='english')
 data['overview'] = data['overview'].fillna('')
